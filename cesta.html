@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cesta de Compras - SIENNA</title>
+
+    <link rel="stylesheet" href="css/ropa.css">
+    <link rel="icon" type="image/png" href="img/sienna.png">
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+
+    <header class="barra">
+
+        <nav id="menu" class="menu">
+            <button type="button" id="rayas-menu" class="rayas-button">
+                <ion-icon name="close-outline"></ion-icon>
+            </button>
+            <ul>
+                <li><a href="ropa.html">MUJER</a></li>
+                <li><a href="ropa.html#hombre">HOMBRE</a></li>
+                <li><a href="ropa.html#accesorios">ACCESORIOS</a></li>
+                <li><a href="index.html#servicios">SERVICIOS</a></li>
+                <li><a href="index.html#galeria">GALERÍA</a></li>
+            </ul>
+        </nav>
+
+        <div id="menu-background" class="menu-background"></div>
+
+        <div class="nav-container">
+
+            <div class="menu-icon">
+                <button type="button" id="menu-toggle">
+                    <ion-icon name="reorder-three-outline"></ion-icon>
+                </button>
+            </div>
+
+            <div class="logo">
+                <a href="index.html#logo"><img src="img/sienna.png" alt="LogoSienna"></a>
+            </div>
+
+            <nav class="barra-menu">
+                <a href="cesta.html">
+                    <ion-icon name="cart-outline"></ion-icon>
+                    <span>Cesta</span>
+                </a>
+            </nav>
+
+        </div>
+    </header>
+
+    <main class="contenedor-cesta">
+        <h2>Tu Cesta de Compras</h2>
+
+        <div class="cesta-layout">
+
+            <section class="cesta-articulos">
+
+                <article class="articulo-cesta">
+                    <div class="img-articulo"><img src="img/bermudas.png" alt="Bermudas"></div>
+                    <div class="detalle-articulo">
+                        <p class="nombre-producto">Bermudas Negras - **Talla M**</p>
+                        <p class="precio-unitario">$49.99</p>
+                        <div class="cantidad-control">
+                            <button class="btn-cantidad">-</button>
+                            <input type="number" value="1" min="1" class="input-cantidad" aria-label="Cantidad">
+                            <button class="btn-cantidad">+</button>
+                        </div>
+                    </div>
+                    <div class="subtotal-articulo">
+                        <p>Subtotal: **$49.99**</p>
+                    </div>
+                    <button class="btn-eliminar" aria-label="Eliminar artículo">
+                        <ion-icon name="trash-outline"></ion-icon>
+                    </button>
+                </article>
+
+                <article class="articulo-cesta">
+                    <div class="img-articulo"><img src="img/reloj.jpg" alt="Reloj Luxury Hombre"></div>
+                    <div class="detalle-articulo">
+                        <p class="nombre-producto">Reloj Luxury Hombre - **Color Negro**</p>
+                        <p class="precio-unitario">$70.00</p>
+                        <div class="cantidad-control">
+                            <button class="btn-cantidad">-</button>
+                            <input type="number" value="2" min="1" class="input-cantidad" aria-label="Cantidad">
+                            <button class="btn-cantidad">+</button>
+                        </div>
+                    </div>
+                    <div class="subtotal-articulo">
+                        <p>Subtotal: **$140.00**</p>
+                    </div>
+                    <button class="btn-eliminar" aria-label="Eliminar artículo">
+                        <ion-icon name="trash-outline"></ion-icon>
+                    </button>
+                </article>
+
+                <a href="ropa.html" class="boton-continuar">
+                    <ion-icon name="arrow-back-outline"></ion-icon> Seguir Comprando
+                </a>
+
+            </section>
+
+            <aside class="cesta-resumen">
+                <h3>Resumen del Pedido</h3>
+                <div class="resumen-linea">
+                    <span>Subtotal de Artículos:</span>
+                    <span class="monto-subtotal">$189.99</span>
+                </div>
+                <div class="resumen-linea">
+                    <span>Envío:</span>
+                    <span class="monto-envio">$15.00</span>
+                </div>
+                <div class="resumen-linea total-final">
+                    <strong>Total a Pagar:</strong>
+                    <strong class="monto-total">$204.99</strong>
+                </div>
+                <button class="boton-checkout">Proceder al Pago</button>
+            </aside>
+
+        </div>
+
+    </main>
+
+    <footer class="final">
+        <p>&copy; Sienna — Nueva Colección 2025</p>
+        <div class="redes-sociales">
+            <a href="#">Instagram</a> |
+            <a href="#">Facebook</a> |
+            <a href="#">TikTok</a>
+        </div>
+    </footer>
+
+    <script src="js/proyecto.js"></script>
+
+</body>
+
+</html>

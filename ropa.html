@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SIENNA</title>
+
+    <link rel="icon" href="img/sienna.png">
+    <link rel="stylesheet" href="css/ropa.css">
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+
+    <header class="barra">
+
+        <nav id="menu" class="menu">
+            <button type="button" id="rayas-menu" class="rayas-button">
+                <ion-icon name="close-outline"></ion-icon>
+            </button>
+            <ul>
+                <li><a href="ropa.html">MUJER</a></li>
+                <li><a href="ropa.html#hombre">HOMBRE</a></li>
+                <li><a href="ropa.html#accesorios">ACCESORIOS</a></li>
+                <li><a href="index.html#servicios">SERVICIOS</a></li>
+                <li><a href="index.html#galeria">GALERÍA</a></li>
+            </ul>
+        </nav>
+
+        <div id="menu-background" class="menu-background"></div>
+
+        <div class="nav-container">
+
+            <div class="menu-icon">
+                <button type="button" id="menu-toggle">
+                    <ion-icon name="reorder-three-outline"></ion-icon>
+                </button>
+            </div>
+
+            <div class="cart-icon">
+                <a href="cesta.html">
+                    <ion-icon name="cart-outline"></ion-icon>
+                </a>
+            </div>
+
+            <div class="logo">
+                <a href="index.html#logo"><img src="img/sienna.png" alt="LogoSienna"></a>
+            </div>
+        </div>
+    </header>
+
+    <main class="contenedor">
+
+        <section id="miSlider" class="slider" tabindex="0" aria-roledescription="carousel">
+            <div class="viewport">
+                <div class="slides">
+                    <div class="slide"><img src="img/accesorios.png" alt="Accesorios"></div>
+                    <div class="slide"><img src="img/enviogratis.png" alt="Envío gratis"></div>
+                    <div class="slide"><img src="img/ropaman.png" alt="Ropa para hombre"></div>
+                </div>
+                <button class="prev" data-action="prev" aria-label="Anterior">&#10094;</button>
+                <button class="next" data-action="next" aria-label="Siguiente">&#10095;</button>
+            </div>
+        </section>
+
+        <section class="products-section">
+            <h2>Ropa de Mujer</h2>
+            <div class="grid">
+                <article class="card">
+                    <div class="producto"><img src="img/bermudas.png" alt="Bermudas"></div>
+                    <div class="titulo">Bermudas</div>
+                    <div class="precio">$49.999</div>
+                    <button class="agregar">Agregar</button>
+                </article>
+                <article class="card">
+                    <div class="producto"><img src="img/chaqueta.png" alt="Chaqueta Cuero"></div>
+                    <div class="titulo">Chaqueta Cuero</div>
+                    <div class="precio">$129.999</div>
+                    <button class="agregar">Agregar</button>
+                </article>
+                <article class="card">
+                    <div class="producto"><img src="img/chaqueta2.png" alt="Conjunto 49"></div>
+                    <div class="titulo">Conjunto 49</div>
+                    <div class="precio">$200.000</div>
+                    <button class="agregar">Agregar</button>
+                </article>
+                <article class="card">
+                    <div class="producto"><img src="img/blanco.png" alt="Pantalón blanco"></div>
+                    <div class="titulo">Pantalón blanco</div>
+                    <div class="precio">$70.000</div>
+                    <button class="agregar">Agregar</button>
+                </article>
+            </div>
+        </section>
+
+        <section class="products-section">
+            <h2>Ropa de Hombre</h2>
+            <div class="grid">
+                <article id="hombre" class="card">
+                    <div class="producto"><img src="img/Man1.png" alt="Camisa con estampado"></div>
+                    <div class="titulo">Camisa con estampado</div>
+                    <div class="precio">$30.999</div>
+                    <button class="agregar">Agregar</button>
+                </article>
+                <article class="card">
+                    <div class="producto"><img src="img/man2.png" alt="Jean desgastado"></div>
+                    <div class="titulo">Jean desgastado</div>
+                    <div class="precio">$100.999</div>
+                    <button class="agregar">Agregar</button>
+                </article>
+                <article class="card">
+                    <div class="producto"><img src="img/man3.jpg" alt="Jean y camisa Vintage"></div>
+                    <div class="titulo">Jean y camisa Vintage</div>
+                    <div class="precio">$200.000</div>
+                    <button class="agregar">Agregar</button>
+                </article>
+                <article class="card">
+                    <div class="producto"><img src="img/galeria.jpg" alt="Conjunto 45"></div>
+                    <div class="titulo">Conjunto 45</div>
+                    <div class="precio">$70.000</div>
+                    <button class="agregar">Agregar</button>
+                </article>
+            </div>
+        </section>
+
+        <section class="products-section">
+            <h2>Accesorios</h2>
+            <div class="grid">
+                <article id="accesorios" class="card">
+                    <div class="producto"><img src="img/anillo.png" alt="Anillo pasión"></div>
+                    <div class="titulo">Anillo pasión</div>
+                    <div class="precio">$20.999</div>
+                    <button class="agregar">Agregar</button>
+                </article>
+                <article class="card">
+                    <div class="producto"><img src="img/correa.jpg" alt="Cinturón Vintage"></div>
+                    <div class="titulo">Cinturón Vintage</div>
+                    <div class="precio">$15.999</div>
+                    <button class="agregar">Agregar</button>
+                </article>
+                <article class="card">
+                    <div class="producto"><img src="img/gafas.jpg" alt="Gafas"></div>
+                    <div class="titulo">Gafas</div>
+                    <div class="precio">$30.000</div>
+                    <button class="agregar">Agregar</button>
+                </article>
+                <article class="card">
+                    <div class="producto"><img src="img/reloj.jpg" alt="Reloj Luxury de Hombre"></div>
+                    <div class="titulo">Reloj Luxury de Hombre</div>
+                    <div class="precio">$70.000</div>
+                    <button class="agregar">Agregar</button>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="final">
+        <p>&copy; Sienna — Nueva Colección 2025</p>
+        <div class="redes-sociales">
+            <a href="#">Instagram</a> |
+            <a href="#">Facebook</a> |
+            <a href="#">TikTok</a>
+        </div>
+    </footer>
+
+    <script src="js/proyecto.js"></script>
+
+</body>
+
+</html>

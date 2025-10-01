@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIENNA - Colombia</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" type="image/png" href="img/sienna.png">
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+
+    <header class="barra">
+
+        <nav id="menu" class="menu">
+            <button type="button" id="rayas-menu" class="rayas-button">
+                <ion-icon name="close-outline"></ion-icon>
+            </button>
+            <ul>
+                <li><a href="ropa.html">MUJER</a></li>
+                <li><a href="ropa.html#hombre">HOMBRE</a></li>
+                <li><a href="ropa.html#accesorios">ACCESORIOS</a></li>
+                <li><a href="#servicios">SERVICIOS</a></li>
+                <li><a href="#galeria">GALERÍA</a></li>
+                <li><a href="#tallas">TALLAS</a></li>
+                <li><a href="#contacto">CONTACTO</a></li>
+            </ul>
+        </nav>
+
+        <div id="menu-background" class="menu-background"></div>
+
+        <div class="nav-container">
+
+            <div class="menu-icon">
+                <button type="button" id="menu-toggle">
+                    <ion-icon name="reorder-three-outline"></ion-icon>
+                </button>
+            </div>
+
+            <div class="logo">
+                <a href="index.html"><img src="img/sienna.png" alt="LogoSienna"></a>
+            </div>
+
+            <nav class="barra-menu">
+                <a href="#contacto">
+                    <ion-icon name="person-outline"></ion-icon>
+                    <span>Contacto</span>
+                </a>
+                <a href="cesta.html">
+                    <ion-icon name="cart-outline"></ion-icon>
+                    <span>Cesta</span>
+                </a>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+
+        <section id="logo" class="hero">
+            <div class="video">
+                <video src="video/sienna.mp4" muted autoplay loop></video>
+                <span class="icono-volumen" id="volumen">
+                    <ion-icon name="volume-medium-outline"></ion-icon>
+                </span>
+            </div>
+        </section>
+
+        <section id="servicios" class="contenedor">
+            <h2>Nuestros Servicios</h2>
+            <table>
+                <tr>
+                    <td>
+                        <ion-icon name="bag-check-outline"></ion-icon>
+                        <h3>Envíos Rápidos y Seguros</h3>
+                        <p>Recibe tu pedido en 24-48 horas. Hacemos envíos a toda Colombia.</p>
+                    </td>
+                    <td>
+                        <ion-icon name="swap-horizontal-outline"></ion-icon>
+                        <h3>Cambios y Devoluciones Fáciles</h3>
+                        <p>Tienes 30 días para cambiar o devolver tu compra sin complicaciones.</p>
+                    </td>
+                    <td>
+                        <ion-icon name="card-outline"></ion-icon>
+                        <h3>Pago Seguro Garantizado</h3>
+                        <p>Aceptamos todas las tarjetas y garantizamos la seguridad de tu pago.</p>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="galeria" class="contenedor">
+            <h2>Galería de Productos</h2>
+            <div class="galeria-flex">
+                <article class="card">
+                    <div class="box">
+                        <div class="imgbx">
+                            <img src="img/anillo.png" alt="Anillo">
+                        </div>
+                        <div class="contentbx">
+                            <div>
+                                <h3>Anillo Pasión</h3>
+                                <p>Disponible en 3 tallas</p>
+                                <a href="ropa.html#accesorios" class="boton">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="box">
+                        <div class="imgbx">
+                            <img src="img/gafas.jpg" alt="Gafas">
+                        </div>
+                        <div class="contentbx">
+                            <div>
+                                <h3>Gafas</h3>
+                                <p>Disponible en 2 colores</p>
+                                <a href="ropa.html#accesorios" class="boton">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="box">
+                        <div class="imgbx">
+                            <img src="img/correa.jpg" alt="Correa">
+                        </div>
+                        <div class="contentbx">
+                            <div>
+                                <h3>Correa Vintage</h3>
+                                <p>Disponible por tiempo limitado</p>
+                                <a href="ropa.html#accesorios" class="boton">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="box">
+                        <div class="imgbx">
+                            <img src="img/mascada.jpg" alt="Mascada">
+                        </div>
+                        <div class="contentbx">
+                            <div>
+                                <h3>Mascada Leo</h3>
+                                <p>Disponible en color negro y café</p>
+                                <a href="ropa.html#accesorios" class="boton">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="box">
+                        <div class="imgbx">
+                            <img src="img/reloj.jpg" alt="Correa">
+                        </div>
+                        <div class="contentbx">
+                            <div>
+                                <h3>Reloj Luxury Hombre</h3>
+                                <p>Pocas unidades</p>
+                                <a href="ropa.html#hombre" class="boton">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="box">
+                        <div class="imgbx">
+                            <img src="img/galeria.jpg" alt="Conjunto">
+                        </div>
+                        <div class="contentbx">
+                            <div>
+                                <h3>Conjunto 45</h3>
+                                <p>Disponible en todas las tallas</p>
+                                <a href="ropa.html#hombre" class="boton">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="tallas" class="contenedor tabla-info">
+            <h2>Guía de Tallas</h2>
+            <table class="tabla-tallas">
+                <thead>
+                    <tr>
+                        <th>Talla</th>
+                        <th>Busto (cm)</th>
+                        <th>Cintura (cm)</th>
+                        <th>Cadera (cm)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>S (Small)</td>
+                        <td>86-89</td>
+                        <td>66-69</td>
+                        <td>90-94</td>
+                    </tr>
+                    <tr>
+                        <td>M (Medium)</td>
+                        <td>90-93</td>
+                        <td>70-73</td>
+                        <td>95-98</td>
+                    </tr>
+                    <tr>
+                        <td>L (Large)</td>
+                        <td>94-97</td>
+                        <td>74-77</td>
+                        <td>99-102</td>
+                    </tr>
+                    <tr>
+                        <td>XL (Extra Large)</td>
+                        <td>98-101</td>
+                        <td>78-81</td>
+                        <td>103-106</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contacto" class="conteiner-Formulario">
+            <form action="" class="formulario">
+                <h1>Contactanos</h1>
+                <label for="nombre">Nombre Completo</label>
+                <input type="text" id="nombre" placeholder="Tu nombre" required>
+
+                <label for="email">Correo Electrónico</label>
+                <input type="email" id="email" placeholder="ejemplo@correo.com" required>
+
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" rows="5" placeholder="Escribe mensaje aquí"></textarea>
+
+                <button type="submit" class="boton">Enviar</button>
+                <h4>Nuestro tiempo de respuesta es de 24 horas.</h4>
+            </form>
+        </section>
+    </main>
+
+    <footer class="final">
+        <p>&copy; Sienna — Nueva Colección 2025</p>
+        <div class="redes-sociales">
+            <a href="#">Instagram</a> |
+            <a href="#">Facebook</a> |
+            <a href="#">TikTok</a>
+        </div>
+    </footer>
+
+    <script src="js/proyecto.js"></script>
+
+</body>
+
+</html>
